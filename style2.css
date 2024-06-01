@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    display: flex;
+    width: 100%;
+    
+}
+.smallDiv{
+    width: 30%;   
+    padding-top:8px ;
+}
+.bigDiv{
+    width: 70%;
+    padding-top:8px ;
+
+}
+.headerDiv{
+    width: 70%;
+    height: 10vh;
+    padding-top:8px ;
+
+}
+.imgDiv{
+    background-image: url(banner.jpg); height: 50vh;
+    margin-top: 8px;
+}
+.imgDivText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cardDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    gap: 20px;
+    padding-top: 8px;
+}
+.cardDiv >div{
+    height: 32vh;
+    border: 1px solid #7fad39;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+.bText{
+  background-color: white;
+  padding: 8px;
+
+
+}
+.search-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: stretch;
+  }
+  
+  .search-field,
+  .submit-button {
+    flex: 1; /* Distribute available space evenly between the input and button */
+    height: 40px;
+    width: 80px;  /* Set the height to match */
+  }
+  
+  .search-field {
+    padding: 5px 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    width: 350px; /* Optional: Add border for better visibility */
+
+  }
+  
+  .submit-button {
+    background-color: #7fad39;
+    color: white; /* Change text color to ensure visibility */
+    border: none;
+    
+  }
+  .dropdown {
+    height: 40px;
+    width: 150px;
+}
+.dropdown {
+  flex: 1; /* Distribute available space evenly */
+  padding: 5px 10px; /* Adjust padding as needed */
+  
+}
+.dropdown1 {
+  height: 40px;
+  width: 150px;
+background-color: #7fad39;}
+.dropdown1 {
+flex: 1; /* Distribute available space evenly */
+padding: 5px 10px; /* Adjust padding as needed */
+
+}
+@media only screen and (max-width: 1200px) {
+  .cardDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 20px;
+    padding-top: 8px;
+}
+.cardDiv >div{
+    height: 32vh;
+    border: 1px solid #7fad39;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.headerDiv{
+  width: 100%;
+  height: 10vh;
+  padding-top:8px ;
+display: flex;
+justify-content: flex-end;
+}
+.search-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: stretch;
+  width: 50%;
+  padding-bottom: 20px;
+}
+  }

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerDiv{
+   
+    background-color: #F5F5F5;
+    
+}
+.headerContent{
+    display: flex;
+    width: 100%;
+    color: gray;
+    font-size: 14px;
+    padding-top:  2px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.mainDiv{
+    display: flex;
+    gap: 40px;
+}
+.search-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: stretch; /* Stretch items to match container height */
+  }
+  
+  .search-field,
+  .submit-button {
+    flex: 1; /* Distribute available space evenly between the input and button */
+    height: 40px;
+    width: 80px;  /* Set the height to match */
+  }
+  
+  .search-field {
+    padding: 5px 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    width: 350px; /* Optional: Add border for better visibility */
+
+  }
+  
+  .submit-button {
+    background-color: #7fad39;
+    color: white; /* Change text color to ensure visibility */
+    border: none;
+    
+  }
+  .dropdown {
+    height: 40px;
+    width: 150px; /* Set the height to match */
+}
+.dropdown {
+  flex: 1; /* Distribute available space evenly */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Optional: Add border for better visibility */
+}
